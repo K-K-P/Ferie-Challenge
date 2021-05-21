@@ -15,7 +15,7 @@ def connection(movie_title):
     url = "https://imdb8.p.rapidapi.com/auto-complete"
     querystring = {"q": "{}".format(movie_title)}
     headers = {
-        'x-rapidapi-key': "7e8706d176mshf4fb5c057327339p1a4a80jsnd743483a38d2",
+        'x-rapidapi-key': "XXXXXXXXX",
         'x-rapidapi-host': "imdb8.p.rapidapi.com"
         }
     response = requests.request("GET", url, headers=headers, params=querystring)
