@@ -19,7 +19,7 @@ def request_data(address, country, language='en'):
     url = "https://trueway-geocoding.p.rapidapi.com/Geocode"
     querystring = {"address": address, "language": "en", "country": country}
     headers = {
-        'x-rapidapi-key': "7e8706d176mshf4fb5c057327339p1a4a80jsnd743483a38d2",
+        'x-rapidapi-key': "XXXXX",
         'x-rapidapi-host': "trueway-geocoding.p.rapidapi.com"
         }
     response = requests.request("GET", url, headers=headers, params=querystring)
